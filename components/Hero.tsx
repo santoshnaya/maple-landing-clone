@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
 
         {/* Phone Mockup with Annotations */}
-        <div className="relative flex justify-center items-center max-w-2xl mx-auto">
+        <div className="relative flex justify-center items-center  mx-auto">
           {/* Container for phone and annotations */}
           <div className="relative">
             {/* Phone Image */}
@@ -33,8 +33,8 @@ export default function Hero() {
               <Image
                 src="/mobile-screens.png"
                 alt="Maple app interface showing family financial features"
-                width={400}
-                height={600}
+                width={1400}
+                height={1600}
                 priority
                 
               />
@@ -42,7 +42,7 @@ export default function Hero() {
 
             {/* Handwritten Style Annotations */}
             {/* Track spending annotation - top left */}
-            <div className="absolute top-16 -left-32 hidden lg:block">
+            {/* <div className="absolute top-16 -left-32 hidden lg:block">
               <div className="handwritten-annotation">
                 <div className="flex items-center">
                   <span className="text-maple-green font-handwriting text-lg transform -rotate-12">
@@ -51,10 +51,10 @@ export default function Hero() {
                   <div className="ml-2 w-16 h-0.5 bg-maple-green transform rotate-12"></div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Set goals annotation - top right */}
-            <div className="absolute top-20 -right-28 hidden lg:block">
+            {/* <div className="absolute top-20 -right-28 hidden lg:block">
               <div className="handwritten-annotation">
                 <div className="flex items-center">
                   <div className="mr-2 w-12 h-0.5 bg-maple-coral transform -rotate-12"></div>
@@ -63,10 +63,10 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Learn together annotation - bottom left */}
-            <div className="absolute bottom-24 -left-36 hidden lg:block">
+            {/* <div className="absolute bottom-24 -left-36 hidden lg:block">
               <div className="handwritten-annotation">
                 <div className="flex items-center">
                   <span className="text-maple-mint font-handwriting text-lg transform rotate-6">
@@ -75,10 +75,10 @@ export default function Hero() {
                   <div className="ml-2 w-20 h-0.5 bg-maple-mint transform -rotate-6"></div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Celebrate wins annotation - bottom right */}
-            <div className="absolute bottom-16 -right-32 hidden lg:block">
+            {/* <div className="absolute bottom-16 -right-32 hidden lg:block">
               <div className="handwritten-annotation">
                 <div className="flex items-center">
                   <div className="mr-2 w-16 h-0.5 bg-maple-yellow transform rotate-6"></div>
@@ -87,7 +87,7 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
